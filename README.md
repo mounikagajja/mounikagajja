@@ -37,7 +37,7 @@ Full-stack banking app with real-time fraud detection and an AI banking assistan
 - Engineered behavioral fraud features on 32K+ transactions, raising XGBoost PR-AUC from 0.77 to 0.83 (ROC-AUC 0.99), tracked in MLflow
 - Real-time scoring on Redpanda with idempotent writes, so replayed events never create duplicate fraud flags
 - Batch-vs-online parity test guards against training-serving skew, backed by 57 automated tests
-- FastAPI service with JWT role-based access and a LangGraph banking assistant, all on free tiers
+- FastAPI service with JWT role-based access and a LangGraph banking assistant
 
 ---
 
@@ -61,6 +61,9 @@ Full-stack banking app with real-time fraud detection and an AI banking assistan
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?logo=qdrant&logoColor=white)
+![Redpanda](https://img.shields.io/badge/Redpanda-E2401B?logo=redpanda&logoColor=white)
 
 ---
 
