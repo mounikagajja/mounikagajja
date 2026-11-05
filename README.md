@@ -32,7 +32,7 @@ A RAG agent that answers questions about LangGraph from its issues, PRs, and doc
 - Cross-encoder reranking raised context relevance 32% across a 4-version ablation
 - Self-critique retry loop reached a 92% citation rate
 
-**🏦 SentinelBank** · [repo](YOUR-SENTINELBANK-LINK)  
+**🏦 SentinelBank** · [repo](https://github.com/mounikagajja/sentinelbank)  
 Full-stack banking app with real-time fraud detection and an AI banking assistant, built entirely on free tiers.
 
 **📄 ResumeRadar** · [repo](https://github.com/mounikagajja/ResumeRadar)  
