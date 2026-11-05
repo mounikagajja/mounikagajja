@@ -39,9 +39,6 @@ Full-stack banking app with real-time fraud detection and an AI banking assistan
 - Batch-vs-online parity test guards against training-serving skew, backed by 57 automated tests
 - FastAPI service with JWT role-based access and a LangGraph banking assistant, all on free tiers
 
-**📄 ResumeRadar** · [repo](https://github.com/mounikagajja/ResumeRadar)  
-Matches resumes to job descriptions using a local LLM, LangChain, ChromaDB, FastAPI, and Next.js.
-
 ---
 
 ### 🧰 Toolbox
