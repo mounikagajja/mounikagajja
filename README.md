@@ -3,9 +3,9 @@
 I'm a machine learning engineer who likes taking models out of notebooks and into real systems. I build MLOps pipelines, RAG agents, and LLM tools, and I measure every change before I trust it.
 
 <p>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/mounikagajja/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://YOUR-PORTFOLIO.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:mounikagajja@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
@@ -29,11 +29,15 @@ Raw data to a monitored, containerized model.
 **🧠 LangGraph-Brain** · [repo](https://github.com/mounikagajja/langgraph-brain)  
 A RAG agent that answers questions about LangGraph from its issues, PRs, and docs.
 - Qdrant vector search over a 17K-chunk knowledge base, exposed through FastMCP
-- Cross-encoder reranking raised context relevance 32% across a 4-version ablation
-- Self-critique retry loop reached a 92% citation rate
+- Cross-encoder reranking raised context relevance 32% (0.39 to 0.52) across a 4-version ablation on a 50-question test set
+- Self-critique retry loop reached a 92% citation rate and cut manual review escalation to 56%
 
 **🏦 SentinelBank** · [repo](https://github.com/mounikagajja/sentinelbank)  
 Full-stack banking app with real-time fraud detection and an AI banking assistant, built entirely on free tiers.
+- Engineered behavioral fraud features on 32K+ transactions, raising XGBoost PR-AUC from 0.77 to 0.83 (ROC-AUC 0.99), tracked in MLflow
+- Real-time scoring on Redpanda with idempotent writes, so replayed events never create duplicate fraud flags
+- Batch-vs-online parity test guards against training-serving skew, backed by 57 automated tests
+- FastAPI service with JWT role-based access and a LangGraph banking assistant, all on free tiers
 
 **📄 ResumeRadar** · [repo](https://github.com/mounikagajja/ResumeRadar)  
 Matches resumes to job descriptions using a local LLM, LangChain, ChromaDB, FastAPI, and Next.js.
